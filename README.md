@@ -27,9 +27,10 @@
 - 第三周（青铜时代的帝国与网络）：第15课起
 
 ## 在线发布
-GitHub Pages 从分支 `main`、目录 `/`（仓库根）发布。
+预期公开地址（GitHub Pages，源为分支 `main`、目录 `/`）：
 
-- 公开地址：https://vincent-karina.github.io/global-history/
-- 本地预览：打开仓库根目录的 `index.html`
+https://vincent-karina.github.io/global-history/
 
-推送后 Pages 可能需要一两分钟才可访问。第 9–15 课的 `video-lite.mp4` 尚未全部放入；第 1–4 课按设计没有视频。部署细节见 `deploy-notes.md`。
+本地预览：打开仓库根目录的 `index.html`。
+
+站点文件已在 `main`。Pages 仍需仓库管理员开启：Settings → Pages → Deploy from a branch → `main` / `/ (root)`。开启后大约 1–2 分钟可访问。第 9–15 课的 `video-lite.mp4` 尚未全部放入；第 1–4 课按设计没有视频。细节见 `deploy-notes.md`。
