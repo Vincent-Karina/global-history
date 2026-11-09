@@ -4,7 +4,7 @@
 - 仓库：`Vincent-Karina/global-history`（公开），站点已推到 `main`
 - 预期 Pages 地址：https://vincent-karina.github.io/global-history/
 - 本地预览：打开仓库根目录的 `index.html`
-- 已放入的 lite 视频：第 5–8 课。第 9–15 课待补；第 1–4 课无视频（设计如此）。
+- 已放入的 lite 视频：第 5–12 课。第 13–15 课待补；第 1–4 课无视频（设计如此）。
 - Pages **尚未开启**。`POST /repos/Vincent-Karina/global-history/pages` 返回 403（`Resource not accessible by integration`）。该接口需要 GitHub App 的 `administration:write` 与 `pages:write`；当前 cloud agent 令牌没有 Administration 权限，Actions 的 `GITHUB_TOKEN` 也不能创建 Pages 站点。
 - 管理员打开方式：Settings → Pages → Build and deployment → Deploy from a branch → Branch `main`、Folder `/ (root)` → Save。生效约 1–2 分钟。可用 `gh api repos/Vincent-Karina/global-history --jq .has_pages` 确认为 `true`。
 
@@ -29,12 +29,16 @@
 - `全球历史-第6课/video-lite.mp4` — 8.4 MB
 - `全球历史-第7课/video-lite.mp4` — 12 MB
 - `全球历史-第8课/video-lite.mp4` — 7.6 MB
+- `全球历史-第9课/video-lite.mp4` — 9.8 MB
+- `全球历史-第10课/video-lite.mp4` — 8.0 MB
+- `全球历史-第11课/video-lite.mp4` — 7.1 MB
+- `全球历史-第12课/video-lite.mp4` — 13 MB
 
-第 9–15 课的 `video-lite.mp4` 尚未放入。
+第 13–15 课的 `video-lite.mp4` 尚未放入。
 
 ## 缺失
 - 第1–4课：无标准有声片（按设计不放 video-lite）
-- 第9–15课：播放页与讲义已在，`video-lite.mp4` 待后续提交
+- 第13–15课：播放页与讲义已在，`video-lite.mp4` 待后续提交
 
 ## 推送步骤（给父代理 / Vincent）
 1. 在 GitHub 新建空仓库 `global-history`（Public）。
@@ -42,4 +46,4 @@
 3. Settings → Pages → Deploy from branch `main` / root。
 4. 等待 Pages 生效（约 1–2 分钟）后把真实 URL 告知用户。
 
-站点内容已在 `main`。Pages 源应按上面的设置选 `main` / `/`。第 9–15 课视频到达后再追加对应的 `video-lite.mp4` 即可，不必改 Pages 设置。
+站点内容已在 `main`。Pages 源应按上面的设置选 `main` / `/`。第 13–15 课视频到达后再追加对应的 `video-lite.mp4` 即可，不必改 Pages 设置。
