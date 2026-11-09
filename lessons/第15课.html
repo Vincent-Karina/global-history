@@ -114,8 +114,12 @@ video {
     <p>手机可播 · 本地双击打开即可</p>
   </header>
   
-    <p class="badge warn">暂无有声片</p>
-    <p class="meta">本课视频尚在制作流水线中。可先阅读讲义 HTML（若有）。</p>
+    <video controls playsinline preload="metadata">
+      <source src="../全球历史-第15课/video-lite.mp4" type="video/mp4">
+      <source src="../全球历史-第15课/video.mp4" type="video/mp4">
+      你的浏览器不支持 video 标签。
+    </video>
+    <p class="meta">优先播放 video-lite.mp4；若无法加载可打开同目录 video.mp4。</p>
     
   <p><a class="btn secondary" href="../全球历史-第15课/全球历史-第15课-青铜如何把世界连起来.html">打开讲义 HTML</a></p>
   <footer>相对路径播放 · file:// 可用</footer>

@@ -33,4 +33,4 @@ https://vincent-karina.github.io/global-history/
 
 本地预览：打开仓库根目录的 `index.html`。
 
-站点文件已在 `main`。Pages 仍需仓库管理员开启：Settings → Pages → Deploy from a branch → `main` / `/ (root)`。开启后大约 1–2 分钟可访问。第 13–15 课的 `video-lite.mp4` 尚未放入；第 1–4 课按设计没有视频。细节见 `deploy-notes.md`。
+站点文件已在 `main`。公开地址：https://vincent-karina.github.io/global-history/ （GitHub Pages，分支 `main`，目录 `/`）。本地打开仓库根目录的 `index.html`。第 5–15 课已有 `video-lite.mp4`；第 1–4 课按设计没有视频。细节见 `deploy-notes.md`。
