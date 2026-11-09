@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UNA · 全球历史</title>
+<style>
+:root {
+  --bronze: #b08d57;
+  --bronze-dark: #8a6a3a;
+  --ink: #2a2118;
+  --paper: #faf6ef;
+  --card: #fffdf8;
+  --muted: #6b5b4a;
+  --line: #e6dcc8;
+  --ok: #2f6b4f;
+  --warn: #9a6b2f;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: linear-gradient(180deg, #f3ebe0 0%, var(--paper) 40%, #f7f1e6 100%);
+  color: var(--ink);
+  line-height: 1.6;
+}
+a { color: var(--bronze-dark); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
+header.hero {
+  background: linear-gradient(135deg, #3d2e1c 0%, #6b4e2e 55%, #b08d57 100%);
+  color: #fff8ec;
+  border-radius: 18px;
+  padding: 28px 24px;
+  box-shadow: 0 10px 30px rgba(60,40,20,.18);
+}
+header.hero .brand { opacity: .85; letter-spacing: .12em; font-size: .85rem; }
+header.hero h1 { margin: 8px 0 6px; font-size: clamp(1.6rem, 4vw, 2.2rem); }
+header.hero p { margin: 0; opacity: .92; max-width: 42rem; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 8px; }
+.nav a {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: .92rem;
+}
+.week { margin-top: 28px; }
+.week h2 {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+  color: var(--bronze-dark);
+  border-bottom: 2px solid var(--bronze);
+  display: inline-block;
+  padding-bottom: 2px;
+}
+.week .sub { color: var(--muted); margin: 0 0 14px; font-size: .95rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(80,50,20,.05);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card h3 { margin: 0; font-size: 1.05rem; }
+.badge {
+  display: inline-block;
+  font-size: .75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #efe4d2;
+  color: var(--muted);
+  width: fit-content;
+}
+.badge.ok { background: #e2f0e8; color: var(--ok); }
+.badge.warn { background: #f5ebda; color: var(--warn); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.btn {
+  display: inline-block;
+  background: var(--bronze);
+  color: #fffaf2 !important;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: .9rem;
+  text-decoration: none !important;
+}
+.btn.secondary { background: transparent; color: var(--bronze-dark) !important; border: 1px solid var(--bronze); }
+footer { margin-top: 36px; color: var(--muted); font-size: .9rem; }
+video {
+  width: 100%;
+  max-height: 70vh;
+  background: #111;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+.back { margin-bottom: 12px; display: inline-block; }
+.meta { color: var(--muted); font-size: .92rem; }
+@media (max-width: 560px) {
+  .wrap { padding: 16px 12px 48px; }
+  header.hero { padding: 22px 16px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="brand">UNA · GLOBAL HISTORY</div>
+    <h1>UNA · 全球历史</h1>
+    <p>第 1–15 课本地点播门户。优先使用各课 video-lite.mp4，手机与电脑浏览器均可播放。双击本页即可离线观看。</p>
+  </header>
+  <nav class="nav">
+    <a href="#week1">第一周</a>
+    <a href="#week2">第二周</a>
+    <a href="#week3">第三周</a>
+  </nav>
+  
+  <section class="week" id="week1">
+    <h2>第一周</h2>
+    <p class="sub">人类起源与农业革命</p>
+    <div class="grid">
+  <article class="card">
+    <span class="badge warn">暂无有声片</span>
+    <h3>第1课 · 走出非洲</h3>
+    <div class="actions"><a class="btn secondary" href="lessons/第1课.html">详情 / 讲义</a><a class="btn secondary" href="全球历史-第1课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge warn">暂无有声片</span>
+    <h3>第2课 · 采集—农业转折</h3>
+    <div class="actions"><a class="btn secondary" href="lessons/第2课.html">详情 / 讲义</a><a class="btn secondary" href="全球历史-第2课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge warn">暂无有声片</span>
+    <h3>第3课 · 农业扩散</h3>
+    <div class="actions"><a class="btn secondary" href="lessons/第3课.html">详情 / 讲义</a><a class="btn secondary" href="全球历史-第3课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge warn">暂无有声片</span>
+    <h3>第4课 · 新石器生活方式</h3>
+    <div class="actions"><a class="btn secondary" href="lessons/第4课.html">详情 / 讲义</a><a class="btn secondary" href="全球历史-第4课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第5课 · 其他农业中心</h3>
+    <div class="actions"><a class="btn" href="lessons/第5课.html">播放</a><a class="btn secondary" href="全球历史-第5课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第6课 · 定居与不平等</h3>
+    <div class="actions"><a class="btn" href="lessons/第6课.html">播放</a><a class="btn secondary" href="全球历史-第6课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第7课 · 第一周复盘</h3>
+    <div class="actions"><a class="btn" href="lessons/第7课.html">播放</a><a class="btn secondary" href="全球历史-第7课/">打开文件夹</a></div>
+  </article></div>
+  </section>
+  <section class="week" id="week2">
+    <h2>第二周</h2>
+    <p class="sub">早期城市、国家与文字</p>
+    <div class="grid">
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第8课 · 什么是城市</h3>
+    <div class="actions"><a class="btn" href="lessons/第8课.html">播放</a><a class="btn secondary" href="全球历史-第8课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第9课 · 乌鲁克深挖</h3>
+    <div class="actions"><a class="btn" href="lessons/第9课.html">播放</a><a class="btn secondary" href="全球历史-第9课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第10课 · 埃及与北方</h3>
+    <div class="actions"><a class="btn" href="lessons/第10课.html">播放</a><a class="btn secondary" href="全球历史-第10课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第11课 · 文字</h3>
+    <div class="actions"><a class="btn" href="lessons/第11课.html">播放</a><a class="btn secondary" href="全球历史-第11课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第12课 · 印度河与中国</h3>
+    <div class="actions"><a class="btn" href="lessons/第12课.html">播放</a><a class="btn secondary" href="全球历史-第12课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第13课 · 国家理论</h3>
+    <div class="actions"><a class="btn" href="lessons/第13课.html">播放</a><a class="btn secondary" href="全球历史-第13课/">打开文件夹</a></div>
+  </article>
+
+  <article class="card">
+    <span class="badge ok">有声片</span>
+    <h3>第14课 · 第二周复盘</h3>
+    <div class="actions"><a class="btn" href="lessons/第14课.html">播放</a><a class="btn secondary" href="全球历史-第14课/">打开文件夹</a></div>
+  </article></div>
+  </section>
+  <section class="week" id="week3">
+    <h2>第三周</h2>
+    <p class="sub">青铜时代的帝国与网络</p>
+    <div class="grid">
+  <article class="card">
+    <span class="badge warn">暂无有声片</span>
+    <h3>第15课 · 青铜如何把世界连起来</h3>
+    <div class="actions"><a class="btn secondary" href="lessons/第15课.html">详情 / 讲义</a><a class="btn secondary" href="全球历史-第15课/">打开文件夹</a></div>
+  </article></div>
+  </section>
+  <footer>
+    <p>用法：保持本 index.html 与各「全球历史-第N课」文件夹同级。在线版推送说明见 README.md / deploy-notes.md。</p>
+    <p>第 1–4 课、第 15 课有声片若缺失，仅提供讲义入口；第 5–14 课已配 lite 视频。</p>
+  </footer>
+</div>
+</body>
+</html>
